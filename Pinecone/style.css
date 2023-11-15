@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  max-width: 14440px;
+  background-color: #ffffff;
+}
+.header-container {
+  max-width: 1440px;
+  height: 58px;
+  background-color: #101010;
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  width: 50px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.header pre {
+  color: #ffffff;
+}
+.vector {
+  width: 2.25px;
+  height: 2.29px;
+  background-color: #18ba51;
+  border-radius: 50%;
+  position: absolute;
+  top: 35.32px;
+  left: 45.41px;
+}
+.title {
+  width: 401px;
+  height: 196px;
+  top: 138px;
+  left: 519px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title pre {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 97.52px;
+  color: #303030;
+}
+.hover-image {
+  width: 1198px;
+  height: 400px;
+  position: absolute;
+  top: 374px;
+  left: 120px;
+  gap: 66px;
+  display: flex;
+  justify-content: space-between;
+}
+.group8 {
+  width: 358px;
+  display: flex;
+  height: 160px;
+  position: absolute;
+  top: 1050px;
+  left: 120px;
+  flex-direction: column;
+}
+.group8 p {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  color: #1ac74a;
+}
+.group8 pre {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58.51px;
+  color: #303030;
+}
+.frame60 {
+  width: 598px;
+  height: 894px;
+  position: absolute;
+  top: 1050px;
+  left: 720px;
+}
+.section1 {
+  width: 400px;
+  height: 85px;
+  background-color: #101010;
+  position: absolute;
+  top: 1334px;
+  left: 120px;
+  border-radius: 8px;
+}
+.section1 p {
+  color: #d9d9d9;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+}
+.frame30 p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #d9d9d9;
+}
+.Ulaanbaatar p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #777777;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.frame30 {
+  width: 231px;
+  height: 45px;
+}
