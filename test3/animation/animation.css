@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.sun {
+  width: 260px;
+  height: 260px;
+  position: relative;
+  border-radius: 50%;
+  background-color: yellow;
+  animation: spin1 20s linear infinite;
+}
+.venus{
+  width: 80px;
+  height: 80px;
+  position:absolute ;
+  right: -140px;
+  border-radius: 50%;
+  background-color: bisque;
+}
+.venus img{
+  width: 80px;
+  height: 80px;
+}
+.mars{
+  width: 100px;
+  height: 100px;
+  position:absolute ;
+  top: -250px;
+  border-radius: 50%;
+
+}
+.mars img{
+  width: 80px;
+}
+.jupiter{
+  width: 100px;
+  height: 100px;
+  position:absolute ;
+  bottom: -210px;
+  border-radius: 50%;
+
+}
+.jupiter img{
+  width: 50px;
+}
+.saturn{
+  position:absolute ;
+  left: -300px;
+}
+.earth {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+  position: absolute;
+  left: -100px;
+  animation: spin2 20s linear infinite;
+}
+.moon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  left: -25px;
+  animation: spin3 10s linear infinite;
+}
+@keyframes spin2 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin1 {
+  to {
+    transform: rotate(360deg);
+  }
+}
