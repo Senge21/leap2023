@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box {
+    flex-direction: column;
+    border-radius: 20px;
+  width: 400px;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+}
+.click{
+font-size: 20px;
+margin: 20px;
+}

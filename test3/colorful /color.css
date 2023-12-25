@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+}
+.genarate {
+  width: 200px;
+ margin-left:10px ;
+ border-radius: 5px;
+}
+.genarate:hover{
+    background-color:rgb(213, 213, 213) ;
+}

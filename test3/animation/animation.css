@@ -17,7 +17,7 @@ body {
   position: relative;
   border-radius: 50%;
   background-color: yellow;
-  animation: spin1 20s linear infinite;
+  animation: spin1 40s linear infinite;
 }
 .venus{
   width: 80px;
@@ -35,12 +35,15 @@ body {
   width: 100px;
   height: 100px;
   position:absolute ;
-  top: -250px;
+  top: -400px;
   border-radius: 50%;
 
 }
 .mars img{
-  width: 80px;
+  width: 200px;
+}
+ .elon{
+  width: 100px;
 }
 .jupiter{
   width: 100px;
@@ -55,7 +58,12 @@ body {
 }
 .saturn{
   position:absolute ;
-  left: -300px;
+  left: -250px;
+  animation: spin1 20s linear infinite;
+}
+.saturn img {
+  width: 100px;
+  height: 100px;
 }
 .earth {
   width: 60px;
@@ -64,7 +72,7 @@ body {
   background-color: cornflowerblue;
   position: absolute;
   left: -100px;
-  animation: spin2 20s linear infinite;
+  animation: spin4 20s linear infinite;
 }
 .moon {
   width: 20px;
@@ -73,7 +81,12 @@ body {
   background-color: grey;
   position: absolute;
   left: -25px;
-  animation: spin3 10s linear infinite;
+  animation: spin3 15s linear infinite;
+}
+@keyframes spin4 {
+  to {
+    transform:rotate(360deg) ;
+  }
 }
 @keyframes spin2 {
   to {
